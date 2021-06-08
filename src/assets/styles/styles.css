@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* ::-webkit-scrollbar {
+  width: 5px;
+}
+
+* ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+* ::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2px;
+}
+
+* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding-left: 85px;
+  padding-right: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navgroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navitem {
+  margin: 20px;
+}
+
+.navlink {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.profile-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.profile-square {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-square .image {
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  background-color: grey;
+  margin-right: 10px;
+}
+
+.profile-square .with-me {
+  font-size: 20px;
+}
+
+.profile-square .with-me p {
+  font-size: 30px;
+}
+
+.profile-square h2 {
+  margin-left: 70px;
+}
+
+.sidebar {
+  width: 30%;
+  height: calc(100vh - 100px);
+  background-color: white;
+  opacity: .70;
+  padding-left: 85px;
+  z-index: 10;
+  overflow: scroll;
+}
+
+.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  z-index: 15;
+}
+
+.sidebar-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.search-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+
+.search-menu .search-bar {
+  height: 40px;
+  width: 70%;
+  border: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.location {
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+  margin-left: 25px;
+  padding-right: 10px;
+  border: 2px solid;
+  border-color: black;
+  padding-left: 20px;
+  width: 80%;
+  height: 190px;
+  border-radius: 10px;
+}
+
+.card .card-image {
+  position: relative;
+  top: -35px;
+  height: 70px;
+  width: 70px;
+}
+
+.card .card-image img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.card .details {
+  position: relative;
+  top: -70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 2px solid;
+}
+
+.card .details .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding: 10px 0 10px 0;
+}
+
+.card .details .options .distance {
+  font-size: 18px;
+  padding-right: 10px;
+  color: blue;
+}
+
+.card .details .name {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.card .details .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.card .details .description p {
+  padding-right: 10px;
+}
+
+.card .details .hospital-name {
+  font-size: 16px;
+  color: purple;
+  padding-bottom: 10px;
+}
+
+.card .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  top: -55px;
+  width: 100%;
+}
+
+.card .contact .contact-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.filter-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 10px;
+}
+
+.filter-title {
+  padding: 25px 0 25px 0;
+  margin-left: 30px;
+  border-bottom: 2px solid;
+  border-color: black;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.filter-submenu {
+  margin-left: 30px;
+}
+
+.filter-submenu .filter-choice {
+  padding: 20px 0;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.filter-submenu .filter-choice .check-box {
+  height: 18px;
+  width: 18px;
+  background-color: grey;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
