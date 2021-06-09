@@ -5,7 +5,7 @@ const doctors = [
         "specialization": "Cardio-Thorrasic Surgeon",
         "rating": "4.7",
         "hospital": "Sadanand Ayurvedic Hospital",
-        "rate": "750"
+        "rate": "Rs.750"
     },
     {
         "name": "Dr. Gouri Kannukar",
@@ -13,7 +13,7 @@ const doctors = [
         "specialization": "Cardio-Thorrasic Surgeon",
         "rating": "4.7",
         "hospital": "Sadanand Ayurvedic Hospital",
-        "rate": "750"
+        "rate": "Rs.750"
     },
     {
         "name": "Dr. Gouri Kannukar",
@@ -21,7 +21,7 @@ const doctors = [
         "specialization": "Cardio-Thorrasic Surgeon",
         "rating": "4.7",
         "hospital": "Sadanand Ayurvedic Hospital",
-        "rate": "750"
+        "rate": "Rs.750"
     },
     {
         "name": "Dr. Gouri Kannukar",
@@ -29,7 +29,7 @@ const doctors = [
         "specialization": "Cardio-Thorrasic Surgeon",
         "rating": "4.7",
         "hospital": "Sadanand Ayurvedic Hospital",
-        "rate": "750"
+        "rate": "Rs.750"
     }
 ]
 

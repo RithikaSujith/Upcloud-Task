@@ -124,6 +124,8 @@
             color: purple;
             padding-bottom: 10px;
         }
+
+        
     }
 
     .contact {
@@ -137,6 +139,9 @@
             display: flex;
             justify-content: space-between;
             width: 100%;
+        }
+        .rate-text{            
+            color: green;
         }
     }
 }

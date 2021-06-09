@@ -6,6 +6,7 @@ import {MdCall} from "react-icons/md";
 import {AiFillLike} from "react-icons/ai";
 import doctor_img from "../../assets/images/doctor.jpg";
 
+
 function Card( props ) {
     return (
         <>
@@ -29,11 +30,11 @@ function Card( props ) {
                     </div>
                     <div className="contact">
                         <div className="contact-options">
-                            <TiMessages style={{ color: 'black', height: '26px', width: '26px', margin: '0 30px 0 0' }}/>
-                            <BsCameraVideoFill style={{ color: 'black', height: '26px', width: '26px', margin: '0 30px 0 0'}}/>
-                            <MdCall style={{ color: 'black', height: '26px', width: '26px', margin: '0 30px 0 0' }}/>
+                            <TiMessages style={{ color: '#202020', height: '26px', width: '26px', margin: '0 30px 0 0' }}/>
+                            <BsCameraVideoFill style={{ color: '#202020', height: '26px', width: '26px', margin: '0 30px 0 0'}}/>
+                            <MdCall style={{ color: '#202020' , height: '26px', width: '26px', margin: '0 30px 0 0' }}/>
                             <div className="rate">
-                                <p className="rate-text">{props.rate}</p>
+                                <p className="rate-text" style={{color:'green'}}>{props.rate}</p>
                             </div>
                         </div>
                     </div>
