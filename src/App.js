@@ -9,17 +9,7 @@ function App() {
     <div className="App">
       <Navbar />      
       <Sidebar />
-      {/* <div className="image">
-        <img src={map} alt="map image"/>
-      </div> */}
-      {/* <div className="row">
-        <div className="column">
-          <Sidebar/>
-        </div>
-        <div className="column">
-          <img src={map} alt="map image" style="width:100%"/>
-        </div>
-      </div>  */}
+      
       
     </div>
   );
