@@ -99,7 +99,7 @@
   width: 30%;
   height: calc(100vh - 100px);
   background-color: white;
-  opacity: .70;
+  opacity: 0.95;
   padding-left: 85px;
   z-index: 10;
   overflow: scroll;
